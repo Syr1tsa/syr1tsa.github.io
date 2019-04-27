@@ -1,0 +1,95 @@
+a.glo {
+  margin-top: 20px;
+  padding: 0.2rem;
+  color: #ffffff;
+  width: 15rem;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.25s ease-in;
+  font: 400 18px tahoma;
+  border: 1px solid #00C6FF;
+}
+a.glo:hover {
+  background-position: 0 0;
+  color: #ffffff;
+}
+a.glo_2 {
+  margin-top: 20px;
+  padding: 0.2rem;
+  color: #ffffff;
+  width: 10rem;
+  min-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  background-image: linear-gradient(to top, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+  background-position: 100% 100%;
+  background-size: 200% 200%;
+  transition: all 0.25s ease-in;
+  font: 400 18px tahoma;
+  border: 1px solid #00C6FF;
+}
+a.glo_2:hover {
+  background-position: 0 0;
+  color: #ffffff;
+}
+a.glo_3 {
+  margin-left: 1rem;
+  margin-top: 20px;
+  padding: 0.2rem;
+  color: #ffffff;
+  width: 10rem;
+  min-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+  background-position: 100%100%;
+  background-size: 200% 200%;
+  transition: all 0.25s ease-in;
+  font: 400 18px tahoma;
+  border: 1px solid #00C6FF;
+}
+a.glo_3:hover {
+  background-position: 0 0;
+  color: #000;
+}
+a.glo_4 {
+  margin-left: 1rem;
+  margin-top: 20px;
+  padding: 0.2rem;
+  color: #ffffff;
+  width: 15rem;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.25s ease-in;
+  font: 400 18px tahoma;
+  border: 1px solid #00C6FF;
+}
+a.glo_4:hover {
+  background-position: 0 0;
+  color: #000;
+}
+
+
+@media (max-width: 992px) {
+  .home-page .text-zone {
+    margin-bottom: 50rem;
+  }
+}
+
+@media (max-width:768px) {
+  a.glo_2 {
+    height: 40px;
+  }
+}
