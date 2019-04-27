@@ -106,7 +106,7 @@ app.skills={init:function(){$(".skills h1").blast({delimiter:"word",tag:"span"})
 if(!$('#myCanvas').tagcanvas({textColour:textCol,outlineThickness:0.5,outlineColour:'#fe0853',maxSpeed:0.06,freezeActive:true,shuffleTags:true,shape:'sphere',zoom:0.9,noSelect:true,textFont:null,pinchZoom:true,freezeDecel:true,fadeIn:3000,initial:[0.3,-0.1],depth:0.8})){$('#myCanvasContainer').hide();}
 setTimeout(function(){alertify.log(msg8);},2000);}};
 app.text={init:function(){$(".text-page h1").blast({delimiter:"character",tag:"span"});a=0;$(".text-page h1 .blast").each(function(){var el=$(this);setTimeout(function(){el.addClass('animated bounceIn');},a);a=a+50;});setTimeout(function(){$(".text-page .blast").removeClass('animated bounceIn');$(".text-page .blast").css('opacity',1);$(".text-page .blast").mouseenter(function(){var el=$(this);$(this).addClass('animated rubberBand');$(this).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){el.removeClass('animated rubberBand');});});},1000);}}
-window.goBack=function(e){var defaultLocation="http://jacekjeznach.com";var oldHash=window.location.hash;history.back();var newHash=window.location.hash;if(newHash===oldHash&&(typeof(document.referrer)!=="string"||document.referrer==="")){window.setTimeout(function(){window.location.href=defaultLocation;},1000);}
+window.goBack=function(e){var defaultLocation="http://syr1tsa.github.io";var oldHash=window.location.hash;history.back();var newHash=window.location.hash;if(newHash===oldHash&&(typeof(document.referrer)!=="string"||document.referrer==="")){window.setTimeout(function(){window.location.href=defaultLocation;},1000);}
 if(e){if(e.preventDefault)
 e.preventDefault();if(e.preventPropagation)
 e.preventPropagation();}
