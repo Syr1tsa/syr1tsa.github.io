@@ -2336,7 +2336,6 @@ a img.aligncenter{
     width:100%;
     height:100%;
     z-index:9;
-    background:url(../../themes/jj/img/circle.png) no-repeat center;
     opacity:0;
     -webkit-transition:all .15s ease-out;
     -moz-transition:all .15s ease-out;
@@ -2344,6 +2343,33 @@ a img.aligncenter{
     -webkit-transform:scale(.2);
     -ms-transform:scale(.2);
     transform:scale(.2)
+}
+.magicwall li:nth-child(1) a.colorbox {
+    background:url(../../themes/jj/img/circle.png) no-repeat center;
+}
+.magicwall li:nth-child(2) a.colorbox {
+    background:url(../../themes/jj/img/circle.png) no-repeat center;
+}
+.magicwall li:nth-child(3) a.colorbox {
+    background:url(../../themes/jj/img/circle2.png) no-repeat center;
+}
+.magicwall li:nth-child(4) a.colorbox {
+    background:url(../../themes/jj/img/circle3.png) no-repeat center;
+}
+.magicwall li:nth-child(5) a.colorbox {
+    background:url(../../themes/jj/img/circle4.png) no-repeat center;
+}
+.magicwall li:nth-child(6) a.colorbox {
+    background:url(../../themes/jj/img/circle5.png) no-repeat center;
+}
+.magicwall li:nth-child(7) a.colorbox {
+    background:url(../../themes/jj/img/circle6.png) no-repeat center;
+}
+.magicwall li:nth-child(8) a.colorbox {
+    background:url(../../themes/jj/img/circle7.png) no-repeat center;
+}
+.magicwall li:nth-child(9) a.colorbox {
+    background:url(../../themes/jj/img/circle8.png) no-repeat center;
 }
 .magicwall li:hover a.colorbox{
     opacity:1;
@@ -2383,8 +2409,8 @@ a img.aligncenter{
     color:#08fdd8;
     display:block;
     background:#252627;
-    font-size:13px;
-    padding:5px 20px;
+    font-size:30px;
+    padding:10px 20px;
     -webkit-animation-duration:1s;
     animation-duration:1s;
     -webkit-animation-fill-mode:both;
@@ -2394,6 +2420,7 @@ a img.aligncenter{
     backface-visibility:visible !important;
     animation-name:flipInX
 }
+
 #cboxLoadingOverlay,#cboxLoadingGraphic{
     position:absolute;
     top:0;
@@ -7713,6 +7740,9 @@ input:focus:-ms-input-placeholder{
     }
 }
 @media (max-width:750px){
+    #cboxTitle a {
+        font-size: 13px;
+    }
     #nav_bar nav a{
         margin-left:10%
     }
